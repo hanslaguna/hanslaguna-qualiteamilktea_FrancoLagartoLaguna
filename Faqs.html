@@ -1,0 +1,459 @@
+<!-- This website is created by Jose Rafael Franco -->
+<!-- Course and section: IT130-8l_BM1 -->
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>FAQs</title>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	
+	  </head>
+
+<!-- The style tag contains all the configurations and editing on how the website will be laid out -->
+<style>
+
+
+
+@font-face {
+  font-family: youth;
+  src: url(fonts/YouthTouchDemoRegular-4VwY.ttf);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+    background-image: url('images/background/boba.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	background-size: cover;
+	background-color: #FFCFB6;
+}
+
+/* navigation bar segment */
+.navbar {
+  min-height: 80px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+}
+
+.navfont{
+  color:#FFCFB6;
+}
+
+/* Jumbotron segment */
+.jumbotron {
+  background-image: url("images/jumbo/faqs.jpg") ;
+  background-size: cover;
+  margin-top: 1em;
+  padding-top: 15em;
+  padding-bottom: 35em;
+  position: relative;
+  text-align: center;
+}
+/* font inside jumbotron */
+.centered {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  
+  text-align: center;
+  Font-family: youth;
+  font-size: 13vw;
+  color: #4f2823;
+  text-shadow: 0 0 30px rgb(79, 40, 35);
+}
+
+
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+
+
+.ct1 {
+	border-radius: 25px;
+	border: 2px solid black;
+	padding: 20px; 
+	width: 80%;
+	height: 200px;  
+	background-color: rgb(79, 40, 35);
+	color: white;
+}
+
+.ct2 {
+	border-radius: 25px;
+	border: 2px solid black;
+	padding: 20px; 
+	width: 80%;
+	height: 200px;  
+	background-color: rgb(79, 40, 35);
+	color: white;
+}
+.ct3 {
+	border-radius: 25px;
+	border: 2px solid black;
+	padding: 20px; 
+	width: 80%;
+	height: 200px;  
+	background-color: rgb(79, 40, 35);
+	color: white;
+}
+.ct4 {
+	border-radius: 25px;
+	border: 2px solid black;
+	padding: 20px; 
+	width: 80%;
+	height: 200px;  
+	background-color: rgb(79, 40, 35);
+	color: white;
+}
+.ct5 {
+	border-radius: 25px;
+	border: 2px solid black;
+	padding: 20px; 
+	width: 80%;
+	height: 200px;  
+	background-color: rgb(79, 40, 35);
+	color: white;
+}
+.ct6 {
+	border-radius: 25px;
+	border: 2px solid black;
+	padding: 20px; 
+	width: 80%;
+	height: 200px;  
+	background-color: rgb(79, 40, 35);
+	color: white;
+}
+
+.ct7 {
+	border-radius: 25px;
+	border: 2px solid black;
+	padding: 20px; 
+	width: 80%;
+	height: 200px;  
+	background-color: rgb(79, 40, 35);
+	color: white;
+}
+
+.ct8 {
+	border-radius: 25px;
+	border: 2px solid black;
+	padding: 20px; 
+	width: 80%;
+	height: 200px;  
+	background-color: rgb(79, 40, 35);
+	color: white;
+}
+
+.ct9 {
+	border-radius: 25px;
+	border: 2px solid black;
+	padding: 20px; 
+	width: 80%;
+	height: 200px;  
+	background-color: rgb(79, 40, 35);
+	color: white;
+}
+
+.ct10 {
+	border-radius: 25px;
+	border: 2px solid black;
+	padding: 20px; 
+	width: 80%;
+	height: 200px;  
+	background-color: rgb(79, 40, 35);
+	color: white;
+}
+
+
+
+
+
+.ft {
+	background-image: linear-gradient(#FFCFB6, #4f2823);
+  text-align: center;
+}
+
+.lk a[target] {
+	text-decoration: none;
+	background-color: #FFCFB6;
+	color: black;
+  font-family: "Calibri";
+  text-align: center;
+}
+
+@keyframes example {
+  0%   {background-image: url('images/footer/Logo-Circle.png'); left:0px; top:0px;}
+  25%  {background-image: url('images/footer/Logo-Circle.png'); top:0px;}
+  50%  {background-image: url('images/footer/Logo-Circle.png'); left:200px; top:200px;}
+  75%  {background-image: url('images/footer/Logo-Circle.png'); top:200px;}
+  100% {background-image: url('images/footer/Logo-Circle.png'); top:0px;}
+}
+
+table.footer{
+	font-family: "verdana";
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+
+
+</style>
+
+<body>
+
+	<br />
+	<!-- div class is used to identify a specific part of the page and it enables editing in the style tag -->
+	
+	
+	<nav class="navbar navbar-dark" style="background-color: #4f2823;">
+	  <div class="container">
+	  
+	 
+		  <!-- When the browser is narrowed down, a button will appear. This button will make a dropdown menu of the navbar -->
+		  <div class="navbar-header">
+			<a class="navbar-brand" href="#">
+			  <img src="images/logo_navbar.png" width="75" height="75" alt="">
+			</a>
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="background-color: #FFCFB6">
+			  <span class="sr-only" ></span>
+			  <span class="sr-only" > ⋮ </span>
+			  <span class="sr-only" ></span>         
+			</button>
+			<a class="navbar-brand" style="color: #FFCFB6 " href="#">Qualitea Milktea</a>
+		  </div>
+	
+		  <!-- This segment includes the navbar and the dropdown -->
+		  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+			  <li><a href="Project.html" class="navfont">Menu </a></li>
+			  <li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #FFCFB6"> About Us <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="About.html" class="navfont">Our Story</a></li>
+				  <li><a href="Faqs.html" class="navfont">FAQs</a></li>
+				  <li><a href="Gallery.html" class="navfont">Gallery</a></li>
+				</ul>
+			  </li>
+	
+			  <li><a href="locations.html" class="navfont">Locations</a></li>
+			  <li><a href="Delivery.html" class="navfont">Delivery</a></li>
+			  <li><a href="Contactus.html" class="navfont">Contact</a></li>
+	
+		   
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+
+	
+<div class="container">
+
+	<div class="jumbotron text-center">
+		<div class="container">
+		  <div class="centered">FAQs</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<!-- br tags were used to put spaces in between parts and sections of the page -->
+	<br /><br /><br />
+
+	<!-- The body contains main info of the page -->
+
+	<br /><br />
+
+<center>	
+	<div class="ct1">
+	<h2>How to Order:</h2>
+
+	<ol>
+	<li>Visit our official page and contacts us or go to Grab food or Food panda and search for Qualitea Milk Tea.</li>
+	<li>Contact Us</li>
+	<li>Tell us your orders.</li>
+	<li>Review Order details before purchasing.</li>
+	</ol> 
+	</div>
+	<br /><br /><br />
+
+	<div class="ct2">
+	<h2>WHAT KIND OF TEA DO YOU USE?</h2>
+	<ul>
+	<li>We select only the finest whole leaf tea.
+	After being harvested, handpicked leaves undergo the traditional 12 stages of tea making procedures.
+	Our premium tea leaves such as Ceylon, Jasmine and Mountain tea are sourced in the finest locations of Sri Lanka, Taiwan and China.</li>
+	</ul> 
+	</div>
+
+	<br /><br /><br />
+
+	<div class="ct3">
+	<h2>WHERE DO YOU SOURCE YOUR FRUITS?</h2>
+	<ol>
+	<li>Our fruits are sourced from the best locations, both local and abroad.</li>
+	</ol> 
+	</div>
+
+	<br /><br /><br />
+
+	<div class="ct4">
+	<h2>HOW LONG WILL MY DRINK STAY FRESH?</h2>
+	<ul>
+	<li>To ensure quality and freshness, we recommend consuming your drink within two (2) hours.</li>
+	</ul> 
+	</div>
+	
+	<br /><br /><br />
+
+	<div class="ct5">
+	<h2>CAN I STORE MY DRINK IN THE REFRIGERATOR OR FREEZER?</h2>
+	<ul>
+	<li>Yes. However, for drinks with pearls, we do not recommend doing so, as this will cause the pearls’ texture to change.</li>
+
+	</ul>  
+	</div>
+
+	<br /><br /><br />
+
+	<div class="ct6">
+	<h2>WHERE ARE YOU LOCATED?</h2>
+	<ul>
+	<li>For our complete list of branches and operating hours, visit Store Locations.</li>
+	<li>Go to "Account"</li>
+
+	</ul>
+	</div>
+
+	<br /><br /><br />
+
+	<div class="ct7">
+	<h2>WHAT ARE YOUR OPENING HOURS?</h2>
+	<ul>
+	<li>For our complete list of branches and operating hours, visit Store Locations.</li>
+	</ul>  
+	</div>
+
+	<br /><br /><br />
+
+	<div class="ct8">
+	<h2>DO YOU ACCEPT SENIOR CITIZEN AND PWD DISCOUNTS?</h2>
+	<ul>
+	<li>We give Senior Citizen and PWD discounts under Republic Act Nos. 9994 (Expanded Senior Citizen Act of 2010) and 10754 (Act of Expanding the Benefits and Privileges of a Person with Disability),
+	respectively. Kindly present your senior citizen or PWD ID before making any payments.
+	</li>
+
+	</ul>  
+	</div>
+
+	<br /><br /><br />
+
+	<div class="ct9">
+	<h2> WHAT DO I DO IF I RECEIVE A WRONG ORDER?:</h2>
+	<ul>
+	<li>Kindly inform our baristas and we will gladly replace your drink. Should you have any further concerns, you may email customerservice@tobistrofoods.com</li>
+
+	</ul>  
+	</div>
+	<br /><br /><br />
+
+	<div class="ct10">
+	<h2>ARE YOU OPEN FOR FRANCHISE?</h2>
+	<ul>
+	<li>We are currently not open for any franchising opportunities in the Philippines </li>
+
+	</ul>  
+	</div>
+</center>
+
+
+<br /><br /><br /><br />
+
+<div class="box">
+	<img src="images/footer.jpg" alt="Menu Image" width=100% >
+  </div>
+
+
+<!-- end of div container -->
+</div>
+	<br /><br />
+
+<footer>
+ 
+  <div class="ft">
+	<table class= "footer">
+  
+	<tr>
+	<td> <img src = "images/footer/Logo-Circle.png"  width = 200 height = 200 alt = "Milktea"></td>
+  
+  
+	  <td><h3>Contact Us</h3>
+	  <p">BLK 1 LOT 23, Villa Amparo subdivision, Bayan Luma 4, Imus, Cavite. 4103 Imus, Philippines.</p>
+	  <p><b><i>Developed by: Jose Rafael Franco, Miguel Andrine Lagarto,and Hans Laguna.</i></b></p>
+  
+  
+	  <a href="https://www.facebook.com/qualiteaimus"><img src="images/footer/fb.png" alt="FB Logo" style="width:42px;height:42px;"></a>
+	  <a href="https://twitter.com/qualitea_m?lang=en"><img src="images/footer/twitter.png" alt="Twitter Logo" style="width:42px;height:42px;">
+	  <a href="https://www.instagram.com/qualiteamilkteaimus/"><img src="images/footer/IG.png" alt="IG Logo" style="width:42px;height:42px;"></a><br /><br />
+	</td>
+  
+	<td> <h3 style="font-family: verdana">Quick Links</h3>
+	<div class="lk" style="text-align: center">
+	  <a href="About.html" target="_blank">About Us</a><br />
+	  <a href="Project.html" target="_blank" >Menu</a><br />
+	  <a href="Locations.html" target="_blank">Locations</a><br />
+	  <a href="Delivery.html" target="_blank">Delivery</a><br />
+	  <a href="Faqs.html" target="_blank">Faqs</a><br />
+	  <a href="Contactus.html" target="_blank">Contact Us</a><br />
+	  </td>
+  
+	</table>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+
+</body>
+</html>
